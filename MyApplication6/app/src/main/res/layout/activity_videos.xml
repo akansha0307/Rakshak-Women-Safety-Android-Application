@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    tools:context=".VideosActivity"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- recycler view to show the list of youtube videos -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/recycler_view"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

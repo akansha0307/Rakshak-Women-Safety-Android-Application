@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9ED3FD"
+    android:paddingLeft="64dp"
+    android:paddingTop="16dp"
+    android:paddingRight="64dp"
+    android:paddingBottom="16dp"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="343dp"
+        android:layout_height="457dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:text="Please fill your details"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#112DCA"
+            android:textSize="26sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:inputType="textPersonName"
+                android:padding="15dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editTextPhone1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Emergency Contact 1"
+                android:inputType="phone"
+                android:padding="15dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editTextPhone2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Emergency Contact 2"
+                android:inputType="phone"
+                android:padding="15dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editTextPhone3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Emergency Contact 3"
+                android:inputType="phone"
+                android:padding="15dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/buttonAddPeople"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FAF7F7"
+            android:text="Save" />
+
+    </LinearLayout>
+
+</RelativeLayout>

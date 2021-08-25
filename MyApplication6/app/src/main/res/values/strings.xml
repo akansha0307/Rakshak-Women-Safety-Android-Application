@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="thumbnail_image_view_desc">Youtube Video thumbnail image view</string>
+    <string name="close_player_activity">Close Player activity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="title_activity_home">Home</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string-array name="video_id_array">
+
+        <item>KVpxP3ZZtAc</item>
+
+        <item>7XI1uAdr_s4</item>
+
+        <item>DlYxxuK5MLg</item>
+
+        <item>YHxLulJjIwY</item>
+
+        <item>GTWEpalDofQ</item>
+
+        <item>ppeGR2w8SLM</item>
+
+        <item>DuEVfMxs684</item>
+
+        <item>Ww1DeUSC94o</item>
+
+    </string-array>
+
+
+    <string-array name="video_title_array">
+
+        <item>5 Self-Defense Moves Every Woman Should Know</item>
+
+        <item>How to Escape a Back Choke Hold</item>
+
+        <item>How to Escape a Bear Hug </item>
+
+        <item>How to Escape being Pinned to the Floor </item>
+
+        <item>How to Use Heels as a Weapon</item>
+
+        <item>How to Escape a Front Choke Hold</item>
+
+        <item>How to Use Keys as a Weapon </item>
+
+        <item>30 Easy Self-Defence Tips</item>
+
+    </string-array>
+
+
+    <string-array name="video_duration_array">
+
+        <item>10:36</item>
+
+        <item>02:06</item>
+
+        <item>02:03</item>
+
+        <item>01:43</item>
+
+        <item>01:47</item>
+
+        <item>02:26</item>
+
+        <item>03:51</item>
+
+        <item>14:41</item>
+
+    </string-array>
+</resources>
